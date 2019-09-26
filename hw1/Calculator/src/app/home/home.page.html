@@ -9,7 +9,7 @@
 <ion-content>
   <ion-list>
     <ion-item>
-      <ion-label type="number" position="floating">Value 1:  </ion-label>
+      <ion-label position="floating">Value 1:  </ion-label>
       <ion-input [(ngModel)]="val1" inputmode="numeric" ></ion-input>
     </ion-item>
 
@@ -23,14 +23,14 @@
   <ion-item>
     <ion-label >Operator: </ion-label>
     <ion-select [(ngModel)]="op" placeholder="+">
-      </ion-select-option value="+">+</ion-select-option>
-      </ion-select-option value="-">-</ion-select-option>
-      </ion-select-option value="/">/</ion-select-option>
-      </ion-select-option value="*">*</ion-select-option>
+      <ion-select-option value="+">+</ion-select-option>
+      <ion-select-option value="-">-</ion-select-option>
+      <ion-select-option value="/">/</ion-select-option>
+      <ion-select-option value="*">*</ion-select-option>
     </ion-select>
   </ion-item>
 
   
   <ion-button (click)="calculate()" >Calculate</ion-button>
-  
+  {{result}}
 </ion-content>
