@@ -1,2 +1,2 @@
 # cs262
-# this is bryan fowler on the cs262 repo, editing the readme on the cs262 test branch
+# My screenshots for lab04 are inside of the folder, they are kind of hard to find. They are PNGs if that helps. 
