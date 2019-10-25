@@ -113,6 +113,6 @@ INSERT INTO PlayerProperty(gameID, playerID, propertyID) VALUES (3, 2, 01);
 INSERT INTO PlayerProperty(gameID, playerID, propertyID, houses, hotels) VALUES (3, 3, 19, 1, 1);
 INSERT INTO PlayerProperty(gameID, playerID, propertyID, hotels) VALUES (3, 3, 20, 2);
 
--- Get all of the games ordered by dates, starting with the most recent game
-SELECT * FROM Game ORDER BY time DESC;
+
+
 
