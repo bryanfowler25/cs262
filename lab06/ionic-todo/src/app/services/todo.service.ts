@@ -10,25 +10,25 @@ export class TodoService {
 
   constructor() {
     this.todos = [{
-      id: 0,
-      title: 'hello title',
-      description: 'hello description'
+      id: 123,
+      title: 'hello',
+      description: 'test'
     }];
-   }
+  }
 
-  load(){
+  load() {
 
   }
 
-  save(){
+  save() {
 
   }
 
-  getTodo(id){
+  getTodo(id) {
 
   }
 
-  addTodo(todo){
+  addTodo(todo) {
 
   }
 }
